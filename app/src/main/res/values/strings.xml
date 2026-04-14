@@ -1,0 +1,36 @@
+<resources>
+    <string name="app_name">Scenerio</string>
+    <string name="home_title">Share one frame every second</string>
+    <string name="home_subtitle">Each person joins the same room, captures one camera frame every second, and sees the other person\'s latest picture as the main view.</string>
+    <string name="session_setup_title">Session setup</string>
+    <string name="status_idle">Waiting for camera permission</string>
+    <string name="status_permissions_ready">Permissions granted. Ready to join a shared room.</string>
+    <string name="status_connecting">Connecting to room %1$s as %2$s</string>
+    <string name="status_missing_info">Add your name and room code first.</string>
+    <string name="status_permissions_missing">Camera and microphone permission are still required.</string>
+    <string name="status_camera_starting">Camera is starting. You can join once the preview appears.</string>
+    <string name="status_session_live">Sending one frame each second to room %1$s</string>
+    <string name="status_session_stopped">Sharing stopped.</string>
+    <string name="status_server_missing">Add a backend URL first.</string>
+    <string name="status_network_error">Could not reach the frame relay server.</string>
+    <string name="status_camera_error">The camera preview could not start.</string>
+    <string name="name_hint">Your name</string>
+    <string name="room_hint">Room code, for example CITY-CAM</string>
+    <string name="server_hint">Backend URL, for example http://10.0.2.2:8080</string>
+    <string name="permission_button">Allow camera and mic</string>
+    <string name="connect_button">Start sharing</string>
+    <string name="helper_text">Client contract: POST /rooms/{room}/frame with JPEG body and headers X-Participant-Id, X-Participant-Name. GET /rooms/{room}/frame?excludeParticipant={id} should return 200 with image/jpeg and header X-Participant-Name, or 204 when no remote frame is available.</string>
+    <string name="capture_title">Your camera preview</string>
+    <string name="preview_title">Friend\'s latest frame</string>
+    <string name="remote_feed_label">Remote camera priority</string>
+    <string name="remote_waiting">Your friend\'s camera will appear here</string>
+    <string name="remote_waiting_subtext">This panel refreshes with the newest JPEG downloaded from the shared room.</string>
+    <string name="remote_connected">Latest frame from %1$s</string>
+    <string name="remote_connected_unknown">Latest remote frame received</string>
+    <string name="remote_connected_subtext">The image updates roughly once per second whenever your friend sends a new frame.</string>
+    <string name="local_feed_label">Your camera status</string>
+    <string name="local_waiting">Your camera frames will be captured from the preview and sent after you start sharing.</string>
+    <string name="local_ready">Preview is ready. The app can now capture and send one frame each second.</string>
+    <string name="local_sending">Last frame sent from your camera preview.</string>
+    <string name="stop_button">Stop sharing</string>
+</resources>

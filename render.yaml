@@ -1,0 +1,13 @@
+services:
+  - type: web
+    name: scenerio-signaling-server
+    runtime: node
+    rootDir: server
+    plan: free
+    buildCommand: npm install
+    startCommand: npm start
+    envVars:
+      - key: PORT
+        value: 8080
+      - key: CLIENT_ORIGIN
+        value: "*"

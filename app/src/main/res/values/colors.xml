@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="black">#FF000000</color>
+    <color name="white">#FFFFFFFF</color>
+    <color name="screen_background">#F4EFE7</color>
+    <color name="panel_background">#FFFDFC</color>
+    <color name="panel_stroke">#E5D8C5</color>
+    <color name="remote_panel">#1F4D3A</color>
+    <color name="local_panel">#E9DED0</color>
+    <color name="accent">#B35C2E</color>
+    <color name="text_primary">#1F1B16</color>
+    <color name="text_secondary">#6E6258</color>
+</resources>
